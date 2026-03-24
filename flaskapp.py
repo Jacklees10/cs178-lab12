@@ -29,10 +29,10 @@ def hello(name):
 # ============================================================
 # ---- Exercise 1: add this to flaskapp.py ----
 
-@app.route('/analyze/<word>')
-def analyze(word):
-    return str(len(word))
-    pass
+# @app.route('/analyze/<word>')
+# def analyze(word):
+#     return str(len(word))
+#     pass
 
 # ---- Exercise 2: update your analyze route ----
 
